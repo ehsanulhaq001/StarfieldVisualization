@@ -19,6 +19,9 @@ function setup() {
 }
 
 function draw() {
+    cnv.width = window.innerWidth;
+    cnv.height = window.innerHeight;
+
     speed = document.querySelector("#speed").value;
 
     ctx.clearRect(0, 0, cnv.width, cnv.height);
